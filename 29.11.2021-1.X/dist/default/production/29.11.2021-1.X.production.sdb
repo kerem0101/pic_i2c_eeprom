@@ -1,0 +1,223 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F45K22 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"28 C:\Users\OAKBATI-HPW\MPLABXProjects\29.11.2021-1.X\newmain.c
+[v _main main `(i  1 e 2 0 ]
+"64
+[v _I2C_Init I2C_Init `(v  1 e 1 0 ]
+"77
+[v _I2C_Start I2C_Start `(uc  1 e 1 0 ]
+"87
+[v _I2C_Ready I2C_Ready `(v  1 e 1 0 ]
+"95
+[v _I2C_Write I2C_Write `(uc  1 e 1 0 ]
+"104
+[v _I2C_Stop I2C_Stop `(uc  1 e 1 0 ]
+"132
+[v _I2C_Ack I2C_Ack `(v  1 e 1 0 ]
+"138
+[v _I2C_Nack I2C_Nack `(v  1 e 1 0 ]
+"147 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f45k22.h
+[v _ANSELC ANSELC `VEuc  1 e 1 @3898 ]
+"13754
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @4037 ]
+[s S57 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"13968
+[s S66 . 1 `uc 1 SEN1 1 0 :1:0 
+`uc 1 ADMSK1 1 0 :1:1 
+`uc 1 ADMSK2 1 0 :1:2 
+`uc 1 ADMSK3 1 0 :1:3 
+`uc 1 ACKEN1 1 0 :1:4 
+`uc 1 ACKDT1 1 0 :1:5 
+`uc 1 ACKSTAT1 1 0 :1:6 
+`uc 1 GCEN1 1 0 :1:7 
+]
+[s S75 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK11 1 0 :1:1 
+`uc 1 ADMSK21 1 0 :1:2 
+`uc 1 ADMSK31 1 0 :1:3 
+`uc 1 ADMSK4 1 0 :1:4 
+`uc 1 ADMSK5 1 0 :1:5 
+]
+[s S82 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RSEN1 1 0 :1:1 
+`uc 1 PEN1 1 0 :1:2 
+`uc 1 RCEN1 1 0 :1:3 
+`uc 1 ADMSK41 1 0 :1:4 
+`uc 1 ADMSK51 1 0 :1:5 
+]
+[u S89 . 1 `S57 1 . 1 0 `S66 1 . 1 0 `S75 1 . 1 0 `S82 1 . 1 0 ]
+[v _SSPCON2bits SSPCON2bits `VES89  1 e 1 @4037 ]
+"14108
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+"14346
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
+[s S127 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"14756
+[s S130 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S133 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S142 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S147 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 A 1 0 :1:5 
+]
+[s S152 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S157 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S162 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S165 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S168 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S173 . 1 `uc 1 BF1 1 0 :1:0 
+`uc 1 UA1 1 0 :1:1 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 DA 1 0 :1:5 
+`uc 1 CKE1 1 0 :1:6 
+`uc 1 SMP1 1 0 :1:7 
+]
+[s S182 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 START 1 0 :1:3 
+`uc 1 STOP 1 0 :1:4 
+`uc 1 DA1 1 0 :1:5 
+]
+[s S188 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW 1 0 :1:2 
+`uc 1 START1 1 0 :1:3 
+`uc 1 STOP1 1 0 :1:4 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[s S194 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 I2C_DAT 1 0 :1:5 
+]
+[s S199 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W 1 0 :1:2 
+]
+[s S202 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_A 1 0 :1:5 
+]
+[u S205 . 1 `S127 1 . 1 0 `S130 1 . 1 0 `S133 1 . 1 0 `S142 1 . 1 0 `S147 1 . 1 0 `S152 1 . 1 0 `S157 1 . 1 0 `S162 1 . 1 0 `S165 1 . 1 0 `S168 1 . 1 0 `S173 1 . 1 0 `S182 1 . 1 0 `S188 1 . 1 0 `S194 1 . 1 0 `S199 1 . 1 0 `S202 1 . 1 0 ]
+[v _SSPSTATbits SSPSTATbits `VES205  1 e 1 @4039 ]
+"14976
+[v _SSPADD SSPADD `VEuc  1 e 1 @4040 ]
+"15230
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"17692
+[v _BCLIF BCLIF `VEb  1 e 0 @32011 ]
+"19819
+[v _SSPIE SSPIE `VEb  1 e 0 @31979 ]
+"19822
+[v _SSPIF SSPIF `VEb  1 e 0 @31987 ]
+"20464
+[v _TRISC3 TRISC3 `VEb  1 e 0 @31907 ]
+"20467
+[v _TRISC4 TRISC4 `VEb  1 e 0 @31908 ]
+"25 C:\Users\OAKBATI-HPW\MPLABXProjects\29.11.2021-1.X\newmain.c
+[v _text text `[20]uc  1 e 20 0 ]
+"26
+[v _i i `i  1 e 2 0 ]
+"28
+[v _main main `(i  1 e 2 0 ]
+{
+"62
+} 0
+"104
+[v _I2C_Stop I2C_Stop `(uc  1 e 1 0 ]
+{
+"112
+} 0
+"77
+[v _I2C_Start I2C_Start `(uc  1 e 1 0 ]
+{
+[v I2C_Start@slave_write_address slave_write_address `uc  1 a 1 wreg ]
+[v I2C_Start@slave_write_address slave_write_address `uc  1 a 1 wreg ]
+[v I2C_Start@slave_write_address slave_write_address `uc  1 a 1 1 ]
+"85
+} 0
+"95
+[v _I2C_Write I2C_Write `(uc  1 e 1 0 ]
+{
+[v I2C_Write@data data `uc  1 a 1 wreg ]
+[v I2C_Write@data data `uc  1 a 1 wreg ]
+[v I2C_Write@data data `uc  1 a 1 0 ]
+"102
+} 0
+"87
+[v _I2C_Ready I2C_Ready `(v  1 e 1 0 ]
+{
+"93
+} 0
+"64
+[v _I2C_Init I2C_Init `(v  1 e 1 0 ]
+{
+"75
+} 0
